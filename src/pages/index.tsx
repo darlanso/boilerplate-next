@@ -1,13 +1,5 @@
-import Head from 'next/head'
-export default function Home({ title = 'Project' }) {
-  return (
-    <div>
-      <Head>
-        <title>{title}</title>
-      </Head>
-      <main>
-        <h1>{title}</h1>
-      </main>
-    </div>
-  )
+import Main from 'components/Main'
+
+export default function Home() {
+  return <Main />
 }
